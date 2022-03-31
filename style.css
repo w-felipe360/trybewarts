@@ -10,10 +10,23 @@
   background-color: rgb(50, 167, 145);
   height: 100px;
   width: 100%;
+  justify-content: space-around;
 }
 
-.header form {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+.trybewarts-login {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.trybewarts-login input {
+  margin-left: 10px;
+  width: 160px;
+  height: 25px;
+}
+
+.trybewarts-login button {
+  margin-left: 10px;
+  width: 70px;
+  height: 30px;
 }
