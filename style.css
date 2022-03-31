@@ -51,3 +51,7 @@ main form {
 main img {
   height: 500px;
 }
+
+.hide {
+  display: none;
+}
