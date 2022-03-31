@@ -29,3 +29,12 @@ function buttonEnable(event) {
 }
 
 checkSubmit.addEventListener('click', buttonEnable);
+
+const textValue = document.getElementById('textarea');
+const caracterTextArea = document.getElementById('counter');
+
+function counterText() {
+  caracterTextArea.innerText = 500 - textValue.value.length;
+}
+
+textValue.addEventListener('keyup', counterText);
