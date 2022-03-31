@@ -11,3 +11,9 @@
   height: 100px;
   width: 100%;
 }
+
+.header form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
