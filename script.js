@@ -12,7 +12,7 @@ function activeHeader() {
     window.alert('Email ou senha inválidos.');
   }
 }
-
+// oi
 buttonFormHeader.addEventListener('click', activeHeader);
 
 const checkSubmit = document.getElementById('agreement');
